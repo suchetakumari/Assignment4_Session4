@@ -1,0 +1,19 @@
+.div1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 15px;
+	background-image: linear-gradient(to right, red 50%, yellow 15%, green 60%);
+}
+
+.div2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 15px;
+	background-image: radial-gradient(farthest-corner at 90% 60%, red, yellow, green);
+}
+.div3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 15px;
+	background-image: radial-gradient(closest-corner at 80% 60%, red, yellow, green);
+}
